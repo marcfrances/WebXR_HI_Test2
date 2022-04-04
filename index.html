@@ -24,7 +24,7 @@
     }
 
     //
-    var gameInstance = UnityLoader.instantiate("gameContainer", "Build/WebXR_Multiplayer.json", { onProgress: UnityProgress });
+    var gameInstance = UnityLoader.instantiate("gameContainer", "Build/HEMM_WebXR.json", { onProgress: UnityProgress });
 
 
     document.addEventListener('DOMContentLoaded', (event) => {
@@ -101,8 +101,8 @@
       <div class="fullscreen" onclick="gameInstance.SendMessage('WebXR', 'StartSession')"></div>
       <div class="title">[SimpleWebXR]</div>
     </div>
-    <div class="footer">My GitHub : <a
-        href="https://github.com/marcfrances">https://github.com/marcfrances</a>
+    <div class="footer">See how it works on GitHub : <a
+        href="https://github.com/Rufus31415/Simple-WebXR-Unity">https://github.com/Rufus31415/Simple-WebXR-Unity</a>
     </div>
   </div>
  
